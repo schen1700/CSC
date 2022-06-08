@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="details">
+		<h1>Basic Contact Form</h1>
+		<p>phone number</p>
+		<p>email address</p>
+	</div>
+	<hr>
+	<div class="contact-form">
+		<form action="mailto:something@example.com" method="post" enctype="text/plain">
+			<label>Name:</label>
+			<input type="text" name="Name">
+			<br>
+			<label>Email:</label>
+			<input type="email" name="Email">
+			<br>
+			<label>Comments:</label>
+			<br>
+			<textarea name="Comments" cols="50" rows="10"></textarea>
+			<br>
+			<input type="submit" name="Submit">
+			<input type="reset" name="Reset" value="Clear">
+		</form>
+	</div>
+</body>
+</html>

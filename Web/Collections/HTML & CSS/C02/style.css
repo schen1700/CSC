@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+html {
+	overflow-y: hidden;
+}
+body {
+	background: black;
+	font-family: "Lora", sans-serif;
+}
+div.parent {
+	position: relative;
+	height: 100vh;
+}
+div.wrapper {
+	color: #000;
+	background: hsla(233, 11%, 53%, 1);
+	background: linear-gradient(90deg, hsla(233, 11%, 53%, 1) 0%, hsla(200, 6%, 72%, 1) 100%);
+	background: -moz-linear-gradient(90deg, hsla(233, 11%, 53%, 1) 0%, hsla(200, 6%, 72%, 1) 100%);
+	background: -webkit-linear-gradient(90deg, hsla(233, 11%, 53%, 1) 0%, hsla(200, 6%, 72%, 1) 100%);
+	overflow-x: hidden;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.4);
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 250px 1fr;
+	position: absolute;
+  	margin: 0 auto;
+  	width: 94%;
+  	height: 94%;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.navbar {
+	display: grid;
+  	grid-row: span 1;
+  	grid-column: span 1;
+  	background: rgb(0,0,0);
+  	background: linear-gradient(162deg, rgba(0,0,0,1) 0%, rgba(30,50,130,1) 100%);
+}
+.inner-wrap {
+	text-align: center;
+}
+.inner-wrap h1 {
+  	font-weight: 700;
+  	font-size: 1.8em;
+  	padding: 10px 0px 10px 0px;
+	color: #fff;
+	margin-top: 60px;
+}
+.inner-wrap h3 {
+	font-size: 1.2em;
+  	color: #d6d6d6;
+	margin-top: 10px;
+	margin-bottom: 70px;
+}
+.inner-wrap ul {
+	margin-right: 50px;
+}
+
+ul li {
+	border-bottom: 1px solid #fff;
+  	padding: 20px;
+  	font-size: 1.1em;
+	list-style: none;
+}
+ul li i {
+	margin-right: 20px;
+}
+ul li a {
+	color: #d6d6d6;
+  	text-decoration: none;
+	-o-transition:.6s;
+  	-ms-transition:.6s;
+  	-moz-transition:.6s;
+  	-webkit-transition:.6s;
+  	transition:.6s;
+}
+ul li a:hover {
+	color: #fff;
+	opacity: 0.5;
+}
+.main-content {
+	grid-row: span 1;
+  	grid-column: span 1;
+  	padding: 50px;
+	margin-top: 20px;
+}

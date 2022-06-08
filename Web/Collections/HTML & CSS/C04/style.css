@@ -1,0 +1,49 @@
+h1 {
+	font-size: 1.7em;
+	background-color: red;
+	color: white;
+	width: 50%;
+	height: 4vh;
+	text-align: center;
+	padding: 10px;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	position: relative;
+	left: 25%;
+	border-bottom: 4px solid brown;
+	border-radius: 10px;
+}
+.circle {
+	background-color: pink;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	left: 10%;
+	border: 2px solid brown;
+}
+.square {
+	background-color: brown;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 30%;
+	border: 2px solid brown;
+}
+.oblong {
+	background-color: yellow;
+	width: 160px;
+	height: 80px;
+	border-radius: 50%;
+	position: relative;
+	left: 50%;
+	border: 2px solid brown;
+}
+.rectangle {
+    width: 200px;
+  	height: 100px;
+  	background-color: green;
+	position: relative;
+	left: 70%;
+	border: 2px solid brown;
+}

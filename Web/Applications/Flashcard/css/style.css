@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&family=Joan&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Joan', serif;
+	font-size: 1em;
+	background-color: lavender;
+}
+
+div.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	padding: 15px;
+	background-color: rosybrown;
+	border-bottom: 1px solid sandybrown;
+}
+
+button {
+	padding: 10px;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid lightsalmon;
+	border-bottom: 2px solid lightsalmon;
+	border-radius: 10px;
+	background-color: lavenderblush;
+	color: mediumvioletred;
+}
+
+button:hover {
+	background-color: lavender;
+}
+
+.navbar button {
+	font-family: inherit;
+}
+
+.text {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	font-size: 1.3em;
+	font-family: 'Gentium Plus', serif;
+	color: whitesmoke;
+	background-color: rosybrown;
+	padding: 10px;
+	float: right;
+	border-left: 4px solid sandybrown;
+	border-bottom: 4px solid sandybrown;
+	cursor: pointer;
+}
+
+h2 {
+	text-align: center;
+	color: mediumvioletred;
+}
+
+.container {
+	width: 95%;
+	margin: auto;
+}
+
+.create-box {
+	width: 500px;
+	margin: auto;
+	margin-top: 5%;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: lavenderblush;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.create-box textarea {
+	width: 100%;
+	border-radius: 5px;
+	font-family: inherit;
+	border-radius: 1px solid gray;
+}
+
+.create-box button {
+	width: fit-content;
+}
+
+#question {
+	height: 20vh;
+}
+
+@media(max-width: 500px){
+	.navbar {
+		flex-direction: unset;
+		align-items: center;
+	}
+
+	.create-box {
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,26 @@
+h5 {
+	text-align: center;
+	font-size: 1.2em;
+}
+.circle {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+#yellow-circle {
+	background-color: yellow;
+}
+#blue-circle {
+	background-color: blue;
+}
+#green-circle {
+	background-color: green;
+}
+#orange-circle {
+	background-color: orange;
+}
+#pink-circle {
+	background-color: pink;
+}

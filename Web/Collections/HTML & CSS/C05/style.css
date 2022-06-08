@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+body {
+	background: rgb(28,138,64);
+	background: linear-gradient(90deg, rgba(28,138,64,0.8603816526610644) 0%, rgba(60,161,148,0.6783088235294117) 46%, rgba(55,194,167,0.7371323529411764) 99%);
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	cursor: pointer;
+}
+.wrapper {
+	background: rgb(38,111,36);
+	background: linear-gradient(90deg, rgba(38,111,36,0.9051995798319328) 3%, rgba(85,196,115,1) 46%, rgba(0,212,255,1) 100%);
+	top: 0;
+	width: 100%;
+	height: 30vh;
+}
+.title {
+	float: right;
+	margin-right: 100px;
+	margin-top: 50px;
+	font-size: 1.5em;
+	font-family: 'Lora', serif;
+	padding: 10px 20px 10px 10px;
+	border-bottom: 4px solid darkgreen;
+	border-radius: 20px;
+	background: rgb(25,101,12, 0.6);
+	text-align: center;
+}
+.title large i {
+	padding: 10px;
+	color: white;
+	font-size: 0.8em;
+}
+.title large {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	color: #d6d6d6;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+large:hover {
+	color: darkgreen;
+	cursor: pointer;
+	opacity: 0.6;
+}
+#sub-title {
+	font-size: 0.9em;
+}
+.info {
+	font-size: 0.6em;
+}
+.panel {
+	background-color: darkgreen;
+	width: 70px;
+	height: 30vh;
+}
+.image img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	top: 20px;
+}
+#brand {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	font-size: .6em;
+	position: relative;
+	left: 17px;
+	top: 50px;
+	color: white;
+}
+.inner-content {
+	margin-left: 10px;
+}
+span {
+	margin: 50px;
+	line-height: 0;
+	text-align: center;
+}
+h2 {
+	color: #157973;
+}
+
+hr {
+	border:none;
+	border-top:1px solid #157973;
+	border-bottom: 2px solid #157973;
+	height:1px;
+	width:20%;
+	padding: 1px;
+}
+.about {
+	padding: 10px 20px 50px 20px;
+}
+img.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 10px;
+}
+p.about-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+	font-family: 'Lora', serif;
+}

@@ -1,0 +1,20 @@
+.details {
+	text-align: center;
+}
+.contact-form {
+	text-align: center;
+	margin-top: 10%;
+}
+label {
+	padding: 10px;
+	font-family: Calibri;
+	font-weight: bold;
+}
+br {
+	content: "";
+	margin: 1em;
+	display: block;
+}
+hr {
+	border: 1px solid gray;
+}

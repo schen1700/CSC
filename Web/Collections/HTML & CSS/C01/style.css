@@ -1,0 +1,61 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,43,25,0.9780287114845938) 50%, rgba(8,36,85,0.9360119047619048) 100%);
+}
+
+/* logo */
+h1 {
+  font-size: 1.3em;
+  color: whitesmoke;
+  float: left;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+/* navigation bar */
+nav {
+  float: right;
+  background: black;
+  margin-top: 20px;
+  padding-right: 30px;
+  cursor: pointer;
+  overflow: hidden;
+}
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: .7rem 2rem;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+a:hover {
+  background-color: beige;
+  opacity: 0.3;
+  border-radius: 10px;
+  color: blue;
+  cursor: pointer;
+}
+
+/* sticky footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  cursor: none;
+}
+h6 {
+  color: white;
+  font-size: 1rem;
+}
+
+
