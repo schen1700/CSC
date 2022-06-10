@@ -1,0 +1,40 @@
+Prompt a greeting to a user:
+
+print greeting
+	"Hello, Welcome User!"
+
+print prompt
+	press "Enter" to continue
+<user presses "Enter">
+
+print call-to-action
+	"How are you doing today?"
+
+display possible responses
+	"1: I am good."
+	"2: I am doing great!"
+	"3: Not bad."
+	"4: Not very well."
+
+print request for input
+	"Please choose above that best describes you:"
+<user selects a number>
+
+if input is valid
+	if '1'
+		print response
+			"That's very good!"
+	else if '2'
+		print response
+			"I am glad you are doing great!"
+	else if '3'
+		print response
+			"That's good."
+	else if '4'
+		print response
+			"Wish you well!"
+
+else
+	print response
+		"Invalid, select a valid key"
+

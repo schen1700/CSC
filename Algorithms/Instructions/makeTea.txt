@@ -1,0 +1,15 @@
+Algorithm to Making Tea
+
+Start
+Put tea bag in cup
+Boil water in kettle
+is_water boiled?
+    if yes
+        pour boiled water in cup
+        Then, add sugar and milk
+        Stir it
+        Take out teabag
+        Drink it and enjoy
+    if not
+        Wait until it boils
+    

@@ -1,0 +1,8 @@
+If the score is above or equal to 70 then it tells the user the inputted grade is a pass.
+If not the user recieves a message "failed".
+
+if grade is greater than or equal to 70
+	print "passed"
+else
+	print "failed"
+	

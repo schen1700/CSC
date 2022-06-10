@@ -1,0 +1,20 @@
+Algorithm to Brewing Coffee
+
+Start
+Boil water in kettle
+is_water boiled?
+    if yes
+        add coffee to cup
+        add boiling water to cup
+        Add milk?
+            if yes
+                add milk
+
+        Add sugar?
+            if yes
+                add sugar
+        Stir it
+        Drink it and enjoy
+    if not
+        Wait until it boils
+    
