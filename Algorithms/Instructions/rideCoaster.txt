@@ -1,9 +1,0 @@
-Can you ride a roller coaster?
-if yes
-    check height
-    if height is > 122cm
-        you can ride
-    else if height is between 107 cm and 122cm
-        must be accompanied by adult
-    else
-        you cannot ride

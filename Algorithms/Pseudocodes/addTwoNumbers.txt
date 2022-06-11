@@ -1,0 +1,33 @@
+Promt a greeting to a user:
+
+print "Hello there!"
+
+print call-to-action
+	print "Would you like to add two numbers?"
+
+display possible responses
+	"y: Yes"
+	"n: No"
+
+print request for input
+	"Please choose a response to continue: "
+<user inputs a response>
+
+if response is equal to 'y':
+	BEGIN
+	number first_number, second_number. total
+	print "Enter first number:"
+	<inputs first_number>
+	
+	print "Enter second number:"
+	<inputs second_number>
+	
+	total = first_number + second_number
+	
+	print inputs
+		first_number, " + ", second_number, " = ", total
+	
+	END
+	
+else
+	print "Thank you for using our app!"

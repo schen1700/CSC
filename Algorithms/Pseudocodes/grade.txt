@@ -1,0 +1,14 @@
+BEGIN
+Set total to 0
+Set grade cntr to 1
+
+while grade cntr is less than or equal to 70
+	input next grade
+	add grade into the total
+end while
+
+Set average to total divided by 70
+print average
+
+
+

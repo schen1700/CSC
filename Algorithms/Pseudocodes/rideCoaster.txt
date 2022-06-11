@@ -1,0 +1,8 @@
+print "Check your height to ride a roller coaster."
+
+if height is greater than 122 cm
+	print "You can ride"
+else if height is greater than or equal to 107 cm and is lesser than or equal to 122 cm
+	print "You must be aaccompanied by adult."
+else
+	print "You cannot ride"

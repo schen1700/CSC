@@ -1,0 +1,19 @@
+BEGIN makeTea:
+	Put tea bag in cup
+	Boil water in kettle
+	while water is hot
+		pour hot water in cup
+		steep appropriately
+		then remove tea bag
+	end while
+	if sugar is a choice
+		add sugar
+	if milk is a choice
+		add milk
+	else
+		add nothing
+	endif
+	stir
+	drink
+END	
+	

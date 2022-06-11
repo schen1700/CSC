@@ -1,0 +1,27 @@
+BEGIN
+number height, weight, bmi
+print "Calculate your BMI"
+
+print prompt
+	"Enter your height in cm:"
+<input height>
+
+	"Enter your weight in kg:"
+<input weight>
+
+bmi = weight / (height / 100) ** 2
+
+if bmi is less than 18.5:
+	print "You are Underweight"
+
+else if bmi is less than or equal to 24.9:
+	print "You are at Normal Weight"
+
+else if bmi is less than or equal to 29.9:
+	print "You are Overweight"
+	
+else
+	print "You are Obese"
+end if
+	
+END

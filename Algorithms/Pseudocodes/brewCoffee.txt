@@ -1,0 +1,19 @@
+BEGIN brewCoffee:
+	Put Water in kettle to boil
+	while water is hot
+		add coffee to cup
+		add boiling water to cup
+	end while
+	if milk is required
+		add milk
+	
+	else if sugar is required
+		add sugar
+		
+	else
+		add nothing
+	
+	endif
+	stir
+	drink
+END
