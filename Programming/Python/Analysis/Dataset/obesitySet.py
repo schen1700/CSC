@@ -1,12 +1,10 @@
 import pandas as pd
-import sklearn
 import numpy as np
-import csv
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from scipy.spatial.distance import cdist
 
-frame = pd.read_csv('file.csv')       # Filename: ObesityDataSet.csv
+frame = pd.read_csv('ObesityDataSet.csv')
 
 ### Declare Variables
 # Takes original size of dataframe, adds a new report for NObeyesdad and 

@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as sci
 
-frame = pd.read_csv('file.csv')          # Filename: DataSet.csv
+frame = pd.read_csv('DataSet.csv')
 
 # Lets quickcheck if the min and max values fall within the internal,
 # or outside the interval indicating distribution may be normal.

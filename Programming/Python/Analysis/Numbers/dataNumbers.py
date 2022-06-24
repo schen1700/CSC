@@ -1,12 +1,11 @@
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
-import csv
 
 # Indicates each csv file names inside a variable
 plt.close('all')
-file = 'file.csv'               # filename: DataNumbers.csv
-path = 'file2.csv'              # filename: DataNum.csv
+file = 'DataNumbers.csv'
+path = 'DataNum.csv'
 dframe = pd.read_csv(file)
 frame = pd.read_csv(path)
 
